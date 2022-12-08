@@ -1,10 +1,12 @@
 #include <stdio.h>
 /**
- * main - a c program that prints a sentence using puts
+ * main - a program that prints a statement using puts
+ * code by okeroghene
  *
  * return: 0
  */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
