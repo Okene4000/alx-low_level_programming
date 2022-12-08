@@ -3,7 +3,7 @@
  * main - a program that prints a statement using puts
  * code by okeroghene
  *
- * return: 0
+ * Return: 0
  */
 int main(void)
 {
