@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - print number 0-9 seperated by commas and space
+ * main - print single digit number seperated by commas and space
  *
  * Return: 0
  */
