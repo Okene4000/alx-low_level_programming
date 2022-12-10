@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - print number seperated by commas and space
+ * main - print single digit number seperated by commas and space
  *
  * Return: 0
  */
@@ -15,8 +15,8 @@ int main(void)
 		{
 		putchar(',');
 		putchar(' ');
-		}
 		num++;
+		}
 	}
 	putchar('\n');
 	return (0);
