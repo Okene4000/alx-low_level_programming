@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - print numbers of base 16 in lowercase.
+ * main - print numbers in lowercase.
  *
  * Return:0
  */
