@@ -14,7 +14,7 @@ int main(void)
 	{
 		for (b = '0'; b <= '9'; b++)/* prints tens digit*/
 		{
-			if (!(a == b) || (b > a))/* eliminates repitition*/
+			if (!((a == b) || (b > a)))/* eliminates repitition*/
 			{
 				putchar(a);
 				putchar(b);
