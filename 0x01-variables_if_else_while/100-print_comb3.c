@@ -10,7 +10,7 @@ int main(void)
 	int a = '0';
 	int b = '0';
 
-	for (a = '0'; a <= '9'; a++)/* prints ones digis*/
+	for (a = '0'; a <= '9'; a++)/* prints ones digit*/
 	{
 		for (b = '0'; b <= '9'; b++)/* prints tens digit*/
 		{
