@@ -3,7 +3,7 @@
 /**
  * main - print all possible combination of numbers
  *
- * Return: 0
+ * Return: 0 if successful
  *
  */
 int main(void)
@@ -20,7 +20,7 @@ int main(void)
 				putchar((i % 10) + 48);
 				putchar(' ');
 				putchar((j / 10) + 48);
-				putchar((j / 10) + 48);
+				putchar((j % 10) + 48);
 				if (i != 98 || j != 99)
 				{
 					putchar(',');
