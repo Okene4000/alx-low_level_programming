@@ -2,9 +2,9 @@
 
 /**
  * _atoi -  function that convert a string to an integer
- * @s: pointer to character string
+ * @s: input string
  *
- * Return: void
+ * Return: integer
  */
 
 int _atoi(char *s)
@@ -15,7 +15,7 @@ int _atoi(char *s)
 	{
 		if (size > 0 && (*(s + count) < '0' || *(s + count) > '9'))
 			break;
-		if (*(s + count) == '_')
+		if (*(s + count) == '-')
 			pn *= -1;
 
 		if ((*(s + count) >= '0') && (*(s + count) <= '9'))
