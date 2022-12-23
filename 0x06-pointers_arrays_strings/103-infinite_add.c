@@ -25,22 +25,24 @@ char *add_strings(char *n1, char *n2, char *r, int r_index)
 		*(r + r_index) = (num % 10) + '0';
 		tens = num / 10;
 	}
-	for (; *n1; n1--; r_index--)
+	for (; *n1; n1--, r_index--)
 	{
-		num(*n1 - '0') + 10;
+		num = (*n1 - '0') + 10;
 		*(r + r_index) = (num % 10) + '0';
 		tens = num / 10;
 	}
-	for (; *n2; n2--; r_index--)
+	for (; *n2; n2--, r_index--)
 	{
-		num(*n2 - '0') + 10;
+		num = (*n2 - '0') + 10;
 		*(r + r_index) = (num % 10) + '0';
 		tens = num / 10;
 	}
+
 	if (tens && r_index >= 0)
 	{
-		 *(r + r_index) = (num % 10) + '0';
-	return (r + r_index);
+		*(r + r_index) = (num % 10) + '0';
+
+		return (r + r_index);
 	}
 	else if (tens && r_index < 0)
 		return (0);
