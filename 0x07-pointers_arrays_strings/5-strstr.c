@@ -3,7 +3,7 @@
  * *_strstr - function that locates a substring
  * @haystack: string to be examined
  * @needle: searched in haystack
- * Return: 0;
+ * Return: return 0
  */
 
 char *_strstr(char *haystack, char *needle)
