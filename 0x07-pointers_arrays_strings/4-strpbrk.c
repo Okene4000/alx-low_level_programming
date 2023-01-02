@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * *_strpbrk - function that searches a string for any of a set of bytes
+ * *_strpbrk - prints the character of s1 that are in s2
  * @s: source string
  * @accept: search string
  *
@@ -21,11 +21,11 @@ char *_strpbrk(char *s, char *accept)
 			{
 				break;
 			}
-			if (*(accept + j) != '\0')
-			{
-				return (s + i);
-			}
 		}
-		return (0);
+		if (*(accept + j) != '\0')
+		{
+			return (s + i);
+		}
 	}
+	return (0);
 }
