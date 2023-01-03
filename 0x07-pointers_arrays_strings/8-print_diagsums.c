@@ -3,7 +3,7 @@
 /**
  * print_diagsums - prints the sum of the two diagonals of a square matrix
  * @a: pointer to array
- * @size: size to array
+ * @size: size of array
  *
  * Return: void
  */
@@ -19,7 +19,7 @@ void print_diagsums(int *a, int size)
 
 	size1 = (size * size) - 1;
 
-	for (i = 0; i <= size1; i = 1 + (size + 1))
+	for (i = 0; i <= size1; i = i + (size + 1))
 	{
 		sumDiag1 = sumDiag1 + a[i];
 	}
