@@ -1,13 +1,13 @@
 #include "main.h"
 /**
  * _strlen_recursion - size
- * @s: pointer to string
+ * @s: pointer to string parameter
  * Return: recursion
  */
 
 int _strlen_recursion(char *s)
 {
-	if (*s)
+	if (!*s)
 	{
 		return (0);
 	}
