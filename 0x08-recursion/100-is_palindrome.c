@@ -7,7 +7,7 @@
 
 int _strlen_recursion(char *s)
 {
-	if (!*s)
+	if (*s)
 	{
 		return (0);
 	}
@@ -33,7 +33,7 @@ int p1(char *s, int l)
 	return (0);
 }
 /**
- * is_palindrome - function that returns 1 if a string is a palindrome
+ * is_palindrome - palindrome
  * @s: pointer to string
  * Return: recursion
  */
