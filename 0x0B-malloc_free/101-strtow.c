@@ -26,7 +26,7 @@ int word_len(char *str)
 
 int count_words(char *str)
 {
-	int index = 0, words = 0, len;
+	int index = 0, words = 0;
 
 	for (index = 0; *(str + index); index++)
 	{
