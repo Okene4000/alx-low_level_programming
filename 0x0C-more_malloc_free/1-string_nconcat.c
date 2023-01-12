@@ -4,7 +4,7 @@
  * @s1: first string
  * @s2: second string
  * @n: index
- * Return: pointer
+ * Return: char pointer
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
@@ -13,9 +13,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	unsigned int size1 = 0, size2 = 0, i;
 
 	if (s1 == NULL)
-		s1 = ' ';
+		s1 = "";
 	if (s2 == NULL)
-		s2 = ' ';
+		s2 = "";
 
 	while (s1[size1] != '\0')
 	{
