@@ -1,0 +1,1 @@
+this is the project task for more pointers and malloc in C. in this projct, a putchar file and main.h file containing prototypes were created. all files were duly added, committed and pushed to github.
