@@ -6,13 +6,12 @@ section .text
 main:
    push rbp
 
-
-   mov rvi,fmt
+   mov rdi,fmt
    mov rsi,msg
    mov rax,0
    call printf
 
-   pob rbp
+   pop rbp
 
    mov rax,0
    ret
