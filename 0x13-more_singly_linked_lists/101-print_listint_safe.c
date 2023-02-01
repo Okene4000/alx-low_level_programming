@@ -32,6 +32,14 @@ size_t looped_listint_len(const listint_t *head)
 			{
 				nodes++;
 				frog = frog->next;
+				rat = rat->next;
+			}
+
+			frog = frog->next;
+			while (frog != rat)
+			{
+				nodes++;
+				frog = frog->next;
 			}
 
 			return (nodes);
