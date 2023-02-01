@@ -2,7 +2,7 @@
 /**
  * *insert_nodeint_at_index -  inserts a new node at a given position
  * @head: pointer to address of the head of the listint_t list
- * @idx: index of the listint_t list
+ * @idx: index of the listint_t list where new nodes should be added
  * @n: integer for the new node to be contained
  * Return: NULL if the function fails
  *         address of the new node if otherwise
@@ -36,4 +36,6 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 
 	new->next = copy->next;
 	copy->next = new;
+
+	return (new);
 }
